@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+      - ubuntu
+      - dotfiles
+      - devstack-designate
