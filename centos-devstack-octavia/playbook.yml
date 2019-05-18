@@ -1,6 +1,6 @@
 ---
 - hosts: all
   roles:
-      - ubuntu
+      - centos
       - dotfiles
-      - devstack
+      - devstack-octavia

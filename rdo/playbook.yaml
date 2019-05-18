@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+     - openstack/hosts
+       #- openstack/undercloud
+     - openstack/standalone
